@@ -38,7 +38,7 @@ duration = pulseIn(echoPin, HIGH);
 
 distance = (duration/2) / 29.1;
 
-if (distance < 200)     // This is where checking the distance you can change the value
+if (distance < 100)     // This is where checking the distance you can change the value
 
 {
 
